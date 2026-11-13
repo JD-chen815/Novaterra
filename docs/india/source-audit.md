@@ -1,0 +1,20 @@
+# India / The Pink City — source audit before implementation
+
+2026-11-13. Repository inspected at local Sites source `e0033367e4972f030f363b7c1d101784cb0af65f` (public GitHub main currently `29b17e2358b700718ba30dcaa92da61e071a555f`). The site is version 49. The two source changes after version 47 added India routing, translations, passport/like IDs and a small inline Jaipur scene. Those integration paths already exist and must be retained and verified, not duplicated. Per the user's clarification, the existing India scene will be replaced directly; no separate old-scene backup is being created.
+
+## Actual USA reference
+
+`dist/usa.html` is a 3,009,373 byte standalone page. Its import map has 32 base64-embedded ES modules, decoded for inspection under ignored working files. This is structured modular code, not one arbitrary inline script. Modules include project and layout configs, scene, core runtime/materials/lighting/geometry/random, world architecture/roadside architecture/terrain/signage/props, actor models, simulation and toolbar. Three.js and addons are versioned locally within the export.
+
+- **Reuse:** three-step MeshToonMaterial cache, static per-material merge kit, reusable primitive geometries and transform stack, dynamic actor InstancedMesh batches, articulated character factory, smooth walking phases, OrthographicCamera + OrbitControls, ACES / composer / UnrealBloomPass, shadow rig, delta clocks, visibility/context recovery, resource cleanup, three-state motion controls, and the shared single-conflict traffic/pedestrian controller.
+- **Adapt:** the USA Day/Sunset/Night light rig to pink sandstone and quieter golden hour; skyline framing to a tall Jaipur haveli and street walls; actor garments, scooter details and custom rickshaw construction; smooth traffic curvature limiting for all city routes. Retain safe gaps, braking, crossing clearance and hidden-agent restoration. Correct model-specific single-owner skins and final ground elevations.
+- **New:** a single coordinate masterplan; actual 3D cusped arch openings, modeled jharokhas with structural brackets, screen lattice, chhatris, continuous shop arcades with stocked interiors; residential terraces/stairs; bazaar props; left-side circulation on an authored loop; Hindi sign font and visual validation; India-specific comparisons and clearance checks.
+- **Not reused:** American diner, gas canopy, pickups/RVs/semi-trucks, cacti, desert, parking lot layout or roadside signs. The neutral generic building generator is useful as a contract reference but is insufficient for Jaipur's primary architecture.
+
+## Existing constraints and findings
+
+The USA runtime's shadow type is currently PCFShadowMap, despite soft radius settings; India will explicitly use PCFSoftShadowMap with 2048 desktop / 1024 economy. The USA base terrain includes hanging edge foliage and a broad floor; India will build a sealed sandstone block without those hanging elements. The USA traffic engine controls one conflict zone, not arbitrary independent intersections: the new plan uses one shared pedestrian crossing and no unsupported intersection network. Generic vehicle shell code cannot be stacked under a rickshaw. The original India had an approximately 42 x 34 slab, a narrow palace facade, two shops and two stalls; this request needs a significantly richer interconnected district.
+
+MeshToonMaterial does not expose StandardMaterial metalness/roughness. Materials will use geometric structure and subtle procedural color/bump texture, with other material types only for supported effects. Hindi must be shaped by an embedded, licensed Devanagari font before painting signs. Existing cards/globe/Surprise Me/passport/likes/locales already contain India, but names, preview and metadata must be reviewed after the change.
+
+Baseline screenshots and measured browser metrics are collected before changing the USA reference. No source from another destination is changed. Performance comparisons will label the test environment and distinguish wall-clock frame intervals from GPU time.

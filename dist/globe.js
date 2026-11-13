@@ -38,7 +38,7 @@
     const finder = el('.atlas-finder'), search = el('#atlasSearch'), select = el('#atlasPlaces');
     const tooltip = el('.atlas-tooltip');
     const colors = { Asia: '#a0b38b', Europe: '#9cad82', Africa: '#b4b993', 'North America': '#a8b78e', 'South America': '#a3b68d', Oceania: '#b6bf97', Antarctica: '#e3e8d7', 'Seven seas (open ocean)': '#b6bf97' };
-    const activeCodes = new Set(['JP', 'CN', 'FR', 'RU', 'GL', 'DE', 'US', 'CH', 'KR', 'MA', 'IS']);
+    const activeCodes = new Set(['IN', 'JP', 'CN', 'FR', 'RU', 'GL', 'DE', 'US', 'CH', 'KR', 'MA', 'IS']);
 
     function updateProjection() {
       baseRadius = Math.min(W * .36, H * .335);
@@ -147,7 +147,7 @@
       if (!feature) return;
       selected = feature;
       const p = feature.properties, button = el('.atlas-place');
-      button.querySelector('span').innerHTML = ['JP', 'CN', 'FR', 'RU', 'GL', 'DE', 'US', 'CH', 'KR'].includes(p.code) ? `<i></i> ${t('openNow')}` : `<i></i> ${t('soon')}`;
+      button.querySelector('span').innerHTML = ['IN', 'JP', 'CN', 'FR', 'RU', 'GL', 'DE', 'US', 'CH', 'KR'].includes(p.code) ? `<i></i> ${t('openNow')}` : `<i></i> ${t('soon')}`;
       button.querySelector('strong').textContent = nameOf(feature) + ' ↗';
       button.setAttribute('aria-label', `${t('explore')} ${nameOf(feature)}`);
       el('.atlas-announcement').textContent = t('selected',{place:nameOf(feature)});
@@ -277,6 +277,7 @@
       features = data.features;
       for (const f of features) {
         // The open miniature is inspired by the inhabited west coast.
+        if(f.properties.code==='IN'){f.properties.nativeName='भारत · जयपुर';f.properties.aliases='IND India Bharat Jaipur Pink City Gulabi Haveli भारत जयपुर गुलाबी शहर 印度 斋浦尔 齋浦爾';}
         if(f.properties.code==='GL'){f.properties.label=[-51.1,69.2];f.properties.nativeName='Kalaallit Nunaat';}
         if(f.properties.code==='DE'){f.properties.label=[10.18,49.38];f.properties.nativeName='Deutschland';f.properties.aliases='DEU Germany German Frühlingsdorf Spring Village';}
         if(f.properties.code==='US'){f.properties.label=[-104,35.3];f.properties.nativeName='United States';f.properties.aliases='USA US America United States Route 66 Last Stop 66';}

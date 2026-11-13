@@ -1,0 +1,11 @@
+# Spatial masterplan / Jaipur, 13 November 2026
+
+A fictional old-city bazaar, informed by inspected Jaipur photographs. It is not Hawa Mahal or a geographically exact district. All dimensions are artist estimates, in the inherited miniature world units. An adult is approximately 1.4–1.7 units tall; an auto-rickshaw is 2.55 long, including a conservative mirror-width envelope.
+
+The sealed sandstone block is 68 × 52 × 3. +Z faces the initial camera; paving is .79, road is .815, and character roots are corrected for actual sole height. The northern continuous street wall contains a 22 × 10.2 three-storey haveli (center 0,-10.9), plus four neighboring commercial/residential blocks. The haveli has an open ground arcade, a deep entrance, stocked ground shops, two rows of projecting window bays, a stepped rooftop chamber and three open chhatris. Secondary buildings have distinct floor counts, roof furniture, shutters and shops.
+
+A rounded, clockwise single-lane loop at X ±30, back Z=-21 and front Z=8 keeps wheels clear of buildings. It uses seven moving vehicles and one controlled pedestrian crossing at X=0, Z=4.7…11.4. The main bazaar faces the front leg; the side/rear loop connects it without dead ends. The independent sidewalk loops at Z=3.9/-2.3 and Z=12/23 stay outside the road; storefront browsing pockets stay outside both loops. Four small market stalls at Z=.7 leave an uninterrupted transverse pedestrian corridor.
+
+Four lower southern residential/market buildings around X ±23 frame an open central courtyard and keep the main sightline to the haveli. The courtyard feature and tea seating have dedicated footprints away from walkers. Side lanes connect to the upper district, with a real exterior staircase and landing attached to the west bazaar. Parked scooters/bicycles, trees, utility fixtures and stall posts are registered obstacles; none are randomly scattered onto routes.
+
+Sunset is the initial presentation: balanced low-angle gold light, quiet pink plaster, cream cornices, dark carved wood, indigo/teal textiles and green/yellow autos. Day and Night use the inherited interpolated rig with explicit soft-PCF shadows and economy options. Architectural detail remains in economy mode. The default orthographic camera shows the complete district; three optional close-up compositions preserve practical inspection.

@@ -1,0 +1,1046 @@
+{
+  "usa": {
+    "errors": [],
+    "device": "MacBook Air, installed Chrome headless, 1440x1000, DPR 1, WebGL; requestAnimationFrame wall-clock intervals, NOT GPU time",
+    "averageFPS": 60.002809496096766,
+    "onePercentLowFPS": 59.52380952380888,
+    "samples": 299,
+    "state": {
+      "time": 6.25830000001194,
+      "trafficTime": 6.25830000001194,
+      "pedTime": 6.25830000001194,
+      "night": false,
+      "timeMode": "sunset",
+      "orbit": false,
+      "traffic": true,
+      "people": true,
+      "trafficMode": "active",
+      "peopleMode": "active",
+      "paused": false,
+      "quality": "high"
+    },
+    "camera": {
+      "position": [
+        34.00000000000001,
+        44.99999999999999,
+        87.99999999999999
+      ],
+      "target": [
+        0,
+        1.4,
+        0
+      ],
+      "zoom": 1
+    },
+    "lighting": {
+      "nightAmount": 0.72,
+      "sunsetAmount": 1,
+      "timeMode": "sunset",
+      "keyColor": "ffb678",
+      "keyPosition": [
+        -51,
+        17,
+        22
+      ],
+      "keyIntensity": 3.05,
+      "ambientIntensity": 0.91,
+      "localLights": 17,
+      "windowColor": "b77b3b",
+      "unlitColor": "263b40",
+      "windowEmission": 0.792,
+      "bulbColor": "d7ba89",
+      "bulbEmission": 1.296,
+      "weather": "clear",
+      "rainPoints": 0
+    },
+    "toon": {
+      "materialCount": 141,
+      "gradientSteps": 3
+    },
+    "buildings": [
+      {
+        "id": "diner",
+        "x": -17,
+        "z": -15.899999999999999,
+        "w": 19.2,
+        "d": 8
+      },
+      {
+        "id": "food-mart",
+        "x": 19.85,
+        "z": -17,
+        "w": 24.5,
+        "d": 8.6
+      },
+      {
+        "id": "gas-canopy",
+        "x": 17.1,
+        "z": -7,
+        "w": 19.3,
+        "d": 9.7
+      }
+    ],
+    "sceneMeshes": 221,
+    "fps": 60,
+    "performance": {
+      "calls": 373,
+      "triangles": 192868,
+      "geometries": 92,
+      "textures": 52,
+      "pixelRatio": 1,
+      "quality": "high"
+    },
+    "simulation": {
+      "signal": {
+        "stage": "LOOP",
+        "phase": "LOOP",
+        "elapsed": 6.25830000001194,
+        "remaining": 11.741699999988061,
+        "cycle": 0,
+        "c": 6.25830000001194,
+        "walk": false
+      },
+      "pendingRestoration": {
+        "traffic": false,
+        "people": false
+      },
+      "people": [
+        {
+          "id": 0,
+          "mode": "browsing",
+          "position": [
+            -23,
+            1.1164597394547962,
+            -16.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 1,
+          "mode": "socializing",
+          "position": [
+            -16,
+            1.110877005746843,
+            -16.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 2,
+          "mode": "socializing",
+          "position": [
+            -11,
+            1.1149999434168483,
+            -16.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 3,
+          "mode": "dining",
+          "position": [
+            -30.96,
+            0.6593198587205154,
+            -17.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 4,
+          "mode": "dining",
+          "position": [
+            -29.04,
+            0.5940735616593007,
+            -17.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 5,
+          "mode": "dining",
+          "position": [
+            -30.96,
+            0.6177076931662607,
+            -12.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 6,
+          "mode": "dining",
+          "position": [
+            -29.04,
+            0.63616439402994,
+            -12.5
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 7,
+          "mode": "socializing",
+          "position": [
+            -18,
+            1.1041555471936326,
+            -10.575
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 8,
+          "mode": "socializing",
+          "position": [
+            -17.2,
+            1.1029861080403744,
+            -10.350000000000001
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 9,
+          "mode": "waiting",
+          "position": [
+            8.7,
+            1.1049635224767886,
+            -8.55
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 10,
+          "mode": "waiting",
+          "position": [
+            27.1,
+            1.1179061845263658,
+            -8.850000000000001
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 11,
+          "mode": "browsing",
+          "position": [
+            29.4,
+            1.1178043266336493,
+            -12
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 12,
+          "mode": "taking-photo",
+          "position": [
+            -4,
+            0.9151135203399928,
+            -9.975000000000001
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 13,
+          "mode": "waiting",
+          "position": [
+            29.959129004057367,
+            1.102500042939924,
+            -11.58
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 14,
+          "mode": "walking",
+          "position": [
+            -15.429704586036122,
+            0.9372612774544836,
+            -3.790000000000001
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 15,
+          "mode": "walking",
+          "position": [
+            -13.817717570905119,
+            1.1267346652201247,
+            -10.45
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 16,
+          "mode": "walking",
+          "position": [
+            -3.3243669017486215,
+            0.9348384115396179,
+            -10.455
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 17,
+          "mode": "walking",
+          "position": [
+            8.362269083181118,
+            1.1234062224826786,
+            -11.74
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 18,
+          "mode": "walking",
+          "position": [
+            30.2345825898718,
+            1.121865331215108,
+            -11.075
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 19,
+          "mode": "walking",
+          "position": [
+            -18.546274017747237,
+            0.9351425300192772,
+            -3.9449999999999994
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 20,
+          "mode": "walking",
+          "position": [
+            -10.24,
+            1.1275144317076766,
+            -10.685584421800161
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 21,
+          "mode": "walking",
+          "position": [
+            -2.5522499219694845,
+            0.9214395990005193,
+            -10.45
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 22,
+          "mode": "walking",
+          "position": [
+            7.345,
+            1.115168008432349,
+            -6.539649645514517
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 23,
+          "mode": "waiting",
+          "position": [
+            30.509083685114952,
+            1.1173666283871704,
+            -11.74
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 24,
+          "mode": "walking",
+          "position": [
+            -22.65449816002308,
+            0.9270200919892272,
+            -3.8000000000000007
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 25,
+          "mode": "walking",
+          "position": [
+            -12.457447998331931,
+            1.126948470193328,
+            -10.694999999999999
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 26,
+          "mode": "walking",
+          "position": [
+            -0.7528898375879951,
+            0.9363181754229947,
+            -11.51
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 27,
+          "mode": "walking",
+          "position": [
+            7.85,
+            1.1140326009459587,
+            -7.763462392688538
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 28,
+          "mode": "walking",
+          "position": [
+            28.526030624093085,
+            1.1192155131970072,
+            -12.255
+          ],
+          "visible": true,
+          "spawnFailed": false
+        },
+        {
+          "id": 29,
+          "mode": "walking",
+          "position": [
+            -24.164356844664827,
+            0.9379221546511182,
+            -4.3100000000000005
+          ],
+          "visible": true,
+          "spawnFailed": false
+        }
+      ],
+      "vehicles": [
+        {
+          "type": "muscle",
+          "lane": "east",
+          "position": [
+            -13.46825550113455,
+            0.935,
+            19.125
+          ],
+          "speed": 4.236052421329077,
+          "heading": 1.5707963267948966,
+          "mode": "driving",
+          "s": 29.53174449886545,
+          "lap": 0,
+          "committed": false,
+          "visible": true,
+          "maxSpeed": 4.236052421329077,
+          "lightsOn": true
+        },
+        {
+          "type": "pickup",
+          "lane": "west",
+          "position": [
+            4.8058566665083475,
+            0.935,
+            15.375
+          ],
+          "speed": 4.25045292780851,
+          "heading": -1.5707963267948966,
+          "mode": "driving",
+          "s": 38.19414333349166,
+          "lap": 0,
+          "committed": false,
+          "visible": true,
+          "maxSpeed": 4.25045292780851,
+          "lightsOn": true
+        },
+        {
+          "type": "rv",
+          "lane": "east",
+          "position": [
+            21.644791761269133,
+            0.935,
+            19.125
+          ],
+          "speed": 4.401833318785066,
+          "heading": 1.5707963267948966,
+          "mode": "driving",
+          "s": 64.64479176126913,
+          "lap": 0,
+          "committed": true,
+          "visible": true,
+          "maxSpeed": 4.401833318785066,
+          "lightsOn": true
+        },
+        {
+          "type": "muscle",
+          "lane": "west",
+          "position": [
+            -34.05588129319018,
+            0.935,
+            15.375
+          ],
+          "speed": 4.489333245466696,
+          "heading": -1.5707963267948966,
+          "mode": "driving",
+          "s": 77.05588129319018,
+          "lap": 0,
+          "committed": true,
+          "visible": true,
+          "maxSpeed": 4.489333245466696,
+          "lightsOn": true
+        },
+        {
+          "type": "semi",
+          "lane": "east",
+          "position": [
+            -36.980049601000005,
+            0.935,
+            19.125
+          ],
+          "speed": 4.125,
+          "heading": 1.5707963267948966,
+          "mode": "driving",
+          "s": 6.01995039899999,
+          "lap": 1,
+          "committed": false,
+          "visible": true,
+          "maxSpeed": 4.125,
+          "lightsOn": true
+        },
+        {
+          "type": "motorcycle",
+          "lane": "west",
+          "position": [
+            35.05341391632382,
+            0.935,
+            15.375
+          ],
+          "speed": 4.202908878709423,
+          "heading": -1.5707963267948966,
+          "mode": "driving",
+          "s": 7.94658608367618,
+          "lap": 1,
+          "committed": false,
+          "visible": true,
+          "maxSpeed": 4.202908878709423,
+          "lightsOn": true
+        },
+        {
+          "type": "pickup",
+          "lane": "east",
+          "position": [
+            38.3977376896879,
+            0.935,
+            19.125
+          ],
+          "speed": 4.91713893780252,
+          "heading": 1.5707963267948966,
+          "mode": "driving",
+          "s": 81.3977376896879,
+          "lap": 0,
+          "committed": true,
+          "visible": true,
+          "maxSpeed": 4.91713893780252,
+          "lightsOn": true
+        },
+        {
+          "type": "car",
+          "lane": "visitor",
+          "position": [
+            0.9961329353913654,
+            0.935,
+            6.962842373901474
+          ],
+          "speed": 2.2156528183301,
+          "heading": -2.292208455158573,
+          "mode": "braking",
+          "s": 47.32678271184629,
+          "lap": 0,
+          "committed": false,
+          "visible": true,
+          "maxSpeed": 3,
+          "lightsOn": true
+        }
+      ],
+      "parkedVehicles": 18,
+      "parkedLightsOn": 0,
+      "dynamicBatches": 95
+    }
+  },
+  "india": {
+    "errors": [],
+    "profile": {
+      "averageFPS": 60.00167602446985,
+      "lowPercentileFPS": 59.52380952380888,
+      "definition": "Low-percentile FPS is the inverse of the 99th-percentile frame interval. RequestAnimationFrame wall-clock, not GPU time.",
+      "samples": 358,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "performance": {
+        "calls": 280,
+        "triangles": 779976,
+        "geometries": 63,
+        "textures": 51,
+        "pixelRatio": 1,
+        "quality": "high"
+      },
+      "architecture": {
+        "arches": 287,
+        "jharokhas": 26,
+        "chhatris": 4,
+        "stockedShops": 26,
+        "stalls": 4,
+        "bicycles": 2,
+        "trees": 4
+      },
+      "actors": 28,
+      "traffic": 7,
+      "textureMemoryBytes": "unverified: renderer.info exposes counts, not allocated GPU bytes"
+    },
+    "movement": {
+      "people": true,
+      "cars": true
+    },
+    "paused": true,
+    "modes": {
+      "traffic": [
+        {
+          "mode": "paused",
+          "visible": 7
+        },
+        {
+          "mode": "hidden",
+          "visible": 0
+        },
+        {
+          "mode": "active",
+          "visible": 7
+        }
+      ],
+      "people": [
+        {
+          "mode": "paused",
+          "visible": 28
+        },
+        {
+          "mode": "hidden",
+          "visible": 0
+        },
+        {
+          "mode": "active",
+          "visible": 0
+        }
+      ]
+    },
+    "light": [
+      {
+        "nightAmount": 0,
+        "sunsetAmount": 0,
+        "timeMode": "day",
+        "keyColor": "fff0d2",
+        "keyPosition": [
+          -30,
+          48,
+          25
+        ],
+        "keyIntensity": 2.7,
+        "ambientIntensity": 1.85,
+        "localLights": 9,
+        "windowColor": "263b40",
+        "unlitColor": "263b40",
+        "windowEmission": 0,
+        "bulbColor": "737c80",
+        "bulbEmission": 0,
+        "weather": "clear",
+        "rainPoints": 0
+      },
+      {
+        "nightAmount": 0.72,
+        "sunsetAmount": 1,
+        "timeMode": "sunset",
+        "keyColor": "ffdbac",
+        "keyPosition": [
+          -51,
+          17,
+          22
+        ],
+        "keyIntensity": 2.45,
+        "ambientIntensity": 1.3,
+        "localLights": 9,
+        "windowColor": "93673d",
+        "unlitColor": "263b40",
+        "windowEmission": 0.47300000000000003,
+        "bulbColor": "b7a585",
+        "bulbEmission": 0.774,
+        "weather": "clear",
+        "rainPoints": 0
+      },
+      {
+        "nightAmount": 1,
+        "sunsetAmount": 0,
+        "timeMode": "night",
+        "keyColor": "a3bde9",
+        "keyPosition": [
+          -28,
+          44,
+          18
+        ],
+        "keyIntensity": 0.68,
+        "ambientIntensity": 0.8,
+        "localLights": 9,
+        "windowColor": "d38b39",
+        "unlitColor": "263b40",
+        "windowEmission": 1.1,
+        "bulbColor": "f1cc8c",
+        "bulbEmission": 1.8,
+        "weather": "clear",
+        "rainPoints": 0
+      }
+    ],
+    "reducedState": {
+      "time": 0,
+      "trafficTime": 0,
+      "pedTime": 0,
+      "night": false,
+      "timeMode": "sunset",
+      "orbit": false,
+      "traffic": false,
+      "people": false,
+      "trafficMode": "paused",
+      "peopleMode": "paused",
+      "paused": true,
+      "quality": "economy"
+    },
+    "disposal": {
+      "canvasRemoved": true,
+      "geometries": 0,
+      "textures": 0
+    }
+  },
+  "spatial": {
+    "errors": [],
+    "durationSeconds": 120,
+    "sampledFrames": 600,
+    "minPeopleDistance": 0.8014323656395129,
+    "minVehicleCenterDistance": 4.543822862889567,
+    "vehicleObstacleHits": 0,
+    "personObstacleHits": 0,
+    "vehicleBroadEnvelopeHits": 0,
+    "personVehicleHits": 0,
+    "maxGroundContactError": 0.01799999957228915,
+    "crossingObservations": 194,
+    "maxWheelSteeringRadians": 0.4999999975335241,
+    "spawnFailures": 0,
+    "examples": []
+  },
+  "views": {
+    "errors": [],
+    "responsive": [
+      {
+        "width": 390,
+        "overflow": false,
+        "performance": {
+          "calls": 163,
+          "triangles": 386540,
+          "geometries": 63,
+          "textures": 50,
+          "pixelRatio": 1,
+          "quality": "economy"
+        },
+        "people": 16,
+        "buildings": 9,
+        "buttons": [
+          {
+            "id": "time",
+            "x": 20,
+            "y": 704,
+            "w": 114.65625,
+            "h": 58.5,
+            "right": 134.65625,
+            "bottom": 762.5
+          },
+          {
+            "id": "orbit",
+            "x": 137.65625,
+            "y": 704,
+            "w": 114.671875,
+            "h": 58.5,
+            "right": 252.328125,
+            "bottom": 762.5
+          },
+          {
+            "id": "traffic",
+            "x": 255.328125,
+            "y": 704,
+            "w": 114.65625,
+            "h": 58.5,
+            "right": 369.984375,
+            "bottom": 762.5
+          },
+          {
+            "id": "people",
+            "x": 20,
+            "y": 765.5,
+            "w": 114.65625,
+            "h": 58.5,
+            "right": 134.65625,
+            "bottom": 824
+          },
+          {
+            "id": "pause",
+            "x": 137.65625,
+            "y": 765.5,
+            "w": 114.671875,
+            "h": 58.5,
+            "right": 252.328125,
+            "bottom": 824
+          },
+          {
+            "id": "reset",
+            "x": 255.328125,
+            "y": 765.5,
+            "w": 114.65625,
+            "h": 58.5,
+            "right": 369.984375,
+            "bottom": 824
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "overflow": false,
+        "performance": {
+          "calls": 163,
+          "triangles": 386540,
+          "geometries": 63,
+          "textures": 50,
+          "pixelRatio": 1,
+          "quality": "economy"
+        },
+        "people": 16,
+        "buildings": 9,
+        "buttons": [
+          {
+            "id": "time",
+            "x": 20,
+            "y": 704,
+            "w": 91.328125,
+            "h": 58.5,
+            "right": 111.328125,
+            "bottom": 762.5
+          },
+          {
+            "id": "orbit",
+            "x": 114.328125,
+            "y": 704,
+            "w": 91.328125,
+            "h": 58.5,
+            "right": 205.65625,
+            "bottom": 762.5
+          },
+          {
+            "id": "traffic",
+            "x": 208.65625,
+            "y": 704,
+            "w": 91.34375,
+            "h": 58.5,
+            "right": 300,
+            "bottom": 762.5
+          },
+          {
+            "id": "people",
+            "x": 20,
+            "y": 765.5,
+            "w": 91.328125,
+            "h": 58.5,
+            "right": 111.328125,
+            "bottom": 824
+          },
+          {
+            "id": "pause",
+            "x": 114.328125,
+            "y": 765.5,
+            "w": 91.328125,
+            "h": 58.5,
+            "right": 205.65625,
+            "bottom": 824
+          },
+          {
+            "id": "reset",
+            "x": 208.65625,
+            "y": 765.5,
+            "w": 91.34375,
+            "h": 58.5,
+            "right": 300,
+            "bottom": 824
+          }
+        ]
+      }
+    ]
+  },
+  "integration": {
+    "errors": [],
+    "network": [],
+    "pausedPeople": true,
+    "restored": {
+      "mode": "active",
+      "visible": 28
+    },
+    "reset": 1,
+    "visitRecorded": true,
+    "home": {
+      "title": "Little Elsewhere — A world at your pace",
+      "indiaCard": true,
+      "hasIndia": true
+    },
+    "entry": "india.html",
+    "globeEntry": "india.html",
+    "liked": "true",
+    "passportIncludesIndia": true,
+    "likesHttp": 200,
+    "likes": {
+      "places": {
+        "india": {
+          "count": 0,
+          "liked": false
+        },
+        "japan": {
+          "count": 0,
+          "liked": false
+        },
+        "china": {
+          "count": 0,
+          "liked": false
+        },
+        "france": {
+          "count": 0,
+          "liked": false
+        },
+        "switzerland": {
+          "count": 0,
+          "liked": false
+        },
+        "morocco": {
+          "count": 0,
+          "liked": false
+        },
+        "iceland": {
+          "count": 0,
+          "liked": false
+        },
+        "russia": {
+          "count": 0,
+          "liked": false
+        },
+        "greenland": {
+          "count": 0,
+          "liked": false
+        },
+        "germany": {
+          "count": 0,
+          "liked": false
+        },
+        "usa": {
+          "count": 0,
+          "liked": false
+        },
+        "korea": {
+          "count": 0,
+          "liked": false
+        },
+        "italy": {
+          "count": 0,
+          "liked": false
+        },
+        "uk": {
+          "count": 0,
+          "liked": false
+        }
+      }
+    },
+    "offline": {
+      "requests": [],
+      "ready": true,
+      "fonts": true,
+      "buildings": 9,
+      "stats": {
+        "calls": 280,
+        "triangles": 779976,
+        "geometries": 63,
+        "textures": 51,
+        "pixelRatio": 1,
+        "quality": "high"
+      }
+    }
+  },
+  "usaControls": {
+    "errors": [],
+    "modes": {
+      "traffic": [
+        "paused",
+        "hidden",
+        "active"
+      ],
+      "people": [
+        "paused",
+        "hidden",
+        "active"
+      ]
+    },
+    "times": [
+      "night",
+      "day",
+      "sunset"
+    ],
+    "orbit": false,
+    "before": 1,
+    "zoom": 1.10803324099723,
+    "reset": 1
+  },
+  "date": "2026-11-13",
+  "testSuite": {
+    "tests": 71,
+    "passed": 71,
+    "failed": 0
+  },
+  "baselineSha256": "4e05b65d3ef8da5a2ac0bbb58291c1b5f4dabf5f166eda51b603f09a9a06ef8f",
+  "methodology": {
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        844
+      ]
+    ],
+    "motionSampling": "120 simulated seconds at dt=1/30, broad footprint checks every sixth step (600 sampled frames). Not a full rigid-body simulation.",
+    "memory": "Texture and geometry counts are observed. Actual allocated GPU texture bytes and GPU timings remain unverified.",
+    "mobile": "Economy tested in emulated Chrome viewports on Apple M5. No physical Android/iPhone, thermal or long-duration battery test.",
+    "photos": "See sources.md. Fictional Jaipur district, not a monument survey."
+  }
+}
